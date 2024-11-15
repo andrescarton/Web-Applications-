@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Films</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <h1>ReelMatching</h1>
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="Films_catalog.html" class="nav-link">Films</a></li>
+                    <li class="nav-item"><a href="List.html" class="nav-link">List</a></li>
+                    <li class="nav-item"><a href="Ranking.html" class="nav-link">Ranking</a></li>
+                    <li class="nav-item"><a href="Upcoming.html" class="nav-link">Upcoming</a></li>
+                    <li class="nav-item"><a href="Register.html" class="nav-link">Register</a></li>
+                    <li class="nav-item"><a href="Aboutus.html" class="nav-link">About us</a></li>
+                </ul>
+            </div>
+            <div class="login-button">
+                <button><a href="Login.html">Login</a></button>
+            </div>
+        </nav>
+
+        <div class="mobile-menu-icon">
+            <button onclick="menuShow()"><img class="icon" src="assets/img/menu_white_36dp.svg" alt=""></button>
+        </div>
+    </nav>
+    <!-- Mobile Navigation Links -->
+    <div class="mobile-menu">
+        <ul>
+            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="Films_catalog.html" class="nav-link">Films</a></li>
+            <li class="nav-item"><a href="List.html" class="nav-link">List</a></li>
+            <li class="nav-item"><a href="Ranking.html" class="nav-link">Ranking</a></li>
+            <li class="nav-item"><a href="Upcoming.html" class="nav-link">Upcoming</a></li>
+            <li class="nav-item"><a href="Register.html" class="nav-link">Register</a></li>
+            <li class="nav-item"><a href="Aboutus.html" class="nav-link">About us</a></li>
+        </ul>
+
+        <div class="login-button">
+            <button><a href="Login.html">Login</a></button>
+        </div>
+    </div>
+    </header>
+
+    <section class="banner">
+        <img src="assets/img/Banner Principal cortado 3840x1000.jpg" alt="Banner">
+    </section>
+
+    <!-- Filters -->
+    <section class="filters">
+        <div class="filter-category">
+            <label for="year">Year</label>
+            <select id="year">
+                <option>2024</option>
+                <option>2023</option>
+                <option>2022</option>
+                <option>2021</option>
+                <option>2020</option>
+            </select>
+        </div>
+        <div class="filter-category">
+            <label for="genre">Genre</label>
+            <select id="genre">
+                <option>Action</option>
+                <option>Adventure</option>
+                <option>Animation</option>
+                <option>Comedy</option>
+                <option>Drama</option>
+                <option>Fantasy</option>
+                <option>Sci-Fi</option>
+                <option>Horror</option>
+                <option>Romance</option>
+                <option>Thriller</option>
+                <option>Others</option>
+            </select>
+        </div>
+        <div class="filter-category">
+            <label for="runtime">Runtime</label>
+            <select id="runtime">
+                <option>Up to 90 Min</option>
+                <option>90 - 120 Min</option>
+                <option>120 - 160 Min</option>
+                <option>Over 160 Min</option>
+            </select>
+        </div>
+        <div class="filter-category">
+            <label for="rating">Rating</label>
+            <select id="rating">
+                <option>Most Commented</option>
+                <option>Less Commented</option>
+            </select>
+        </div>
+        <div class="filter-category">
+            <label for="streaming">Streaming</label>
+            <select id="streaming">
+                <option>Netflix</option>
+                <option>Prime Video</option>
+                <option>Disney+</option>
+                <option>Max(HBO) / Sky(UK)</option>
+                <option>AppleTV+</option>
+            </select>
+        </div>
+    </section>
+
+    <div class="container">
+        <img src="Assets/img/Im still here (filter).jpeg" alt="I'm still here film banner" class="imagem">
+        <div class="texto">
+          <h2>I'm Still Here, 2024</h2>
+          <p>A woman married to an important politician during the military dictatorship
+            in Brazil is forced to reinvent herself and chart a new path for herself and
+            her children after her family's life is impacted by a violent and arbitrary act.</p>
+        </div>
+      </div>
+
+    <!-- Bottom Search -->
+    <section class="bottom-search">
+        <input type="text" placeholder="Search">
+    </section>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
